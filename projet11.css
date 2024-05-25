@@ -1,0 +1,53 @@
+ .button1 {
+   background-color : rgb(202, 41, 41);
+   color: white;
+   border: none;
+   height: 40px;
+   width: 100PX;
+   cursor: pointer;
+   margin-left: 8px;
+  }
+  .button1:hover{
+   opacity: 0.4;
+ }
+ .button1:active{
+   opacity: 0.7;
+ }
+
+  .button2 {
+   background-color : rgb(175, 103, 186);
+   color: rgb(74, 97, 187);
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 10px;
+   border-color: rgb(0, 41, 200);
+   height: 40px;
+   width: 80PX;
+   cursor: pointer;
+   margin: 8px;
+   transition: background-color  rgb(175, 103, 186) 2s;
+  }
+  .button2:hover{
+   background-color: rgb(81, 10, 45);
+   opacity: 0,4;
+ }
+ .button2:active{
+   opacity: 0.7;
+ }
+  .button3 {
+   background-color : rgb(30, 169, 99);
+   color: white;
+   border-color: rgb(14, 77, 14);
+   border-radius: 20px;
+   height: 40px;
+   width: 80PX;
+   cursor: pointer;
+   margin: 8px;
+   transition: box-shadow 3s;
+  }
+ .button3:active{
+   opacity: 0.7;
+   }
+  .button3:hover{
+   box-shadow : 05PX 05PX 05PX rgba(0, 0, 0, 0.3) ;
+  }
