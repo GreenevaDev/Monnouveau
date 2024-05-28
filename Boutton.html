@@ -7,7 +7,24 @@
 </head>
  <body>
    <style>
-    /* .button1 {
+
+    /* 
+    body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    background-color:white ;
+  }
+  body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+  }
+    .button1 {
     background-color : rgb(202, 41, 41);
     color: white;
     border: none;
@@ -59,7 +76,71 @@
    .button3:hover{
     box-shadow : 05PX 05PX 05PX rgba(0, 0, 0, 0.3) ;
   }
+  .gat {
+    border-radius: 80px;
+    height: 100px;
+    width: 100PX;
+    cursor: pointer;
+    margin: 8px;
+    object-fit: contain;
+    object-position: bottom;
+    border-color: blue;
+   }
+   .logo {
+    border-radius: 80px;
+    height: 20px;
+    width: 20PX;
+    margin: 8px;
+    transition: box-shadow 3s;
+   }
    </style>
+   <img class="gat" src="gateau1.jpg">
+    <img class="gat" src="gateau2.jpg">
+    <img  class="gat" src="gateau3.jpg">
+    <img class="gat" src="gateau4.jpg">
+
+    .conteneur3{
+  overflow: hidden;
+  max-width: 100px;
+  margin: 20px auto;
+  box-shadow: 0px 15px 10px -5px #777;
+}
+.d3{
+  width: 100px;
+  height: 100px;
+  border-radius: 20PX;
+  background-color: #EDEDED;
+  background-image: url("gateau3.jpg");
+  background-size: contain;
+  animation: defilement3 12s linear infinite;
+}
+@keyframes defilement3{
+  0%{transform: translate(0,0);}
+  100%{transform: translate(-180px,0);}
+}
+.conteneur4{
+  max-width: 100px;
+  overflow: hidden;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px #777;
+}
+.d4{
+  width: 100%;
+  height: 0;
+  border-radius: 20px;
+  padding-top: 75%;
+  background-color: #EDEDED;
+  background-image: url("gateau4.jpg");
+  background-size: contain;
+  animation: defilement2 12s linear infinite;
+}    
+@keyframes defilement4{
+  0%{transform: translate(0,0);}
+  100%{transform: translate(-75%,0);}
+}
+.d3:hover, .d4:hover{
+  animation-play-state: paused;
+}
    <button class="button1">
     <strong>
      S'INSCRIRE 
@@ -75,7 +156,9 @@
     CONNECT
     </strong>
    </button> */
+   <img class="logo" src="LOGO PAPA.jpg">
    <th>Difficulté</th>
+   <button class="https://www.flaticon.com/fr/icones-gratuites/bouton-jouer" title="bouton de parametre">Parametre</button>
 
  </body>
 </html>
