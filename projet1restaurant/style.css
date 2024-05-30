@@ -96,12 +96,14 @@ body {
   background-color:#000;
 }
 
-.menuTitle{
+.titreMenu{
 color:#D0D3D4;
 text-align:center;
 padding:25px;
 font-size:2em;
-
+h2 {
+  margin: 0px;
+}
 }
 p{
 font-size :1em;
@@ -138,6 +140,7 @@ color:#eee;
 @media only screen and (min-width:768px){
   .infoContainer{
       grid-template-columns:1fr 1fr 1fr;
+      display: grid;
   }
   .addressContent, .busnessHeures{
       border-right:1px solid #eee;
