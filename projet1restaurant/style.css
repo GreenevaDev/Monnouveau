@@ -3,13 +3,14 @@ body {
   padding: 0px;
 }
 #page1 {
-  background-image:url("projet1restaurant/img.jpg");
+  background-image:url(img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+
 }
 .titreArr{
-  background-color:#070707;
+  background-color:#050404;
   width:fit-content;
   margin:auto;
   padding:10px;
@@ -17,7 +18,7 @@ body {
 }
 .titre{
   text-align:center;
-  color:#d0d3d4;
+  color:white;
   font-size:2em;
 }
 .navigationDuSlide{
