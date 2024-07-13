@@ -5,17 +5,33 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background: url('ngifo.jpg') no-repeat center center fixed;
   background-size: cover;
 }
-  
+#photo {
+  background-image:url('IMAGES/image3.jpg');
+}
+.barDeNavigation{
+  background-color:#050404
+}
+.navigationDuSlide{
+  padding:15px;
+  cursor:pointer;
+}
+.ligne{
+  background-color:#eee;
+  margin:5px;
+  height:5px;
+  width:30px;
+  border-radius: 5px;
+}
 .login-container {
-  background-color: #574911;
+  background-color: #5749;
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px #28a745;
   width: 300px;
   text-align: center;
+  flood-opacity: 10px;
 }
 .login-container h1 {
   margin-bottom: 20px;
@@ -36,7 +52,13 @@ body {
   padding: 10px 30px;
   border-radius: 15px;
   cursor: pointer;
+  box-shadow: 0 0 10 #28a745;
 }
 .login-container button:hover {
   background-color: black;
+}
+.error-message{
+  color: red;
+  font-size: 14px;
+  margin: 5px 0;
 }

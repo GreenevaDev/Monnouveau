@@ -7,12 +7,13 @@ body {
 
 }
 #page1 {
-  background-image:url(img.jpg);
+  background-image:url(IMAGES/img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
 
 }
+
 .titreArr{
   width:fit-content;
   margin: auto;
